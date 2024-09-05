@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$server_name = "10.0.1.145/"; // Puede ser una dirección IP o un nombre de servidor
+$server_name = "10.0.1.145"; // Puede ser una dirección IP o un nombre de servidor
 $database = "floocontrol";
 $uid = "ksalgado";
 $pass = "phpUsuariol3ct7ra.2024";
