@@ -1,0 +1,37 @@
+/*#graficas.P1{
+    text-align: left;
+}
+#graficas.P2{
+    text-align: center;
+}
+#graficas.P3{
+    text-align: right;
+}
+title {
+    text-align: center;
+    display: inline;
+}*/
+#container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 0px;
+    
+}
+/*canvas {
+    display: grid;
+    visibility: visible;
+    background-color: aquamarine;
+    justify-self: center;
+    font-size: 30px;
+}*/
+.chart{
+    width: 100%;
+    min-height: 300px;
+}
+.columna{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
